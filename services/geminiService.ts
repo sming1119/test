@@ -77,7 +77,7 @@ export const getMenuRecommendation = async (
   } catch (error) {
     console.error("Gemini API Error:", error);
     return {
-      text: "抱歉，我的大腦剛才打結了。不過我也推薦您試試我們的招牌宮保雞丁！",
+      text: "抱歉，我的大腦剛才打結了。不過我也推薦您試試我們的招牌小小丁！",
       recommendedIds: ['m1']
     };
   }

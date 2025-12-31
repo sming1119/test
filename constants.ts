@@ -3,9 +3,9 @@ import { Category, MenuItem } from './types';
 export const MENU_ITEMS: MenuItem[] = [
   {
     id: 'm1',
-    name: '宮保雞丁',
+    name: '小小丁',
     description: '經典川菜，嫩滑雞丁配上香脆花生與乾辣椒，香辣開胃。',
-    price: 180,
+    price: 90,
     category: Category.MAINS,
     imageId: 10,
     spiciness: 2,
